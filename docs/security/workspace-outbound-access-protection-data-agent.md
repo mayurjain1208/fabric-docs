@@ -11,10 +11,15 @@ ms.date: 02/01/2026
 
 # What is outbound access protection?
 
-Outbound access protection helps ensure that data is shared securely within your network security perimeter. An outbound request is defined as any request made from within the workspace towards a location outside the workspace. Data Agent makes an outbound request when adding or querying any data source outside it's own workspace. Outbound access protection protects data by limiting Data Agent's outbound requests to data sources outside a workspace. When outbound access protection is enabled, all outbound connections from the workspace are blocked by default. Workspace admins can then create exceptions to grant access only to approved destinations.
-Outbound access protection doesn't restrict access to any target within the same workspace, because all Data Agent calls remain within the boundary of the workspace.
+Outbound access protection helps ensure that data is shared securely within your network security perimeter. An outbound request is defined as any request made from within the workspace towards a location outside the workspace. 
+When outbound access protection is enabled, all outbound connections from the workspace are blocked by default. Workspace admins can then create exceptions to grant access only to approved destinations.
 
 To learn more about managing outbound access protection, see [Workspace outbound access protection](https://learn.microsoft.com/en-us/fabric/security/workspace-outbound-access-protection-overview).
+
+## Outbound access for Data Agent
+
+Data Agent makes an outbound request when adding or querying any data source outside it's own workspace. Outbound access protection protects data by limiting Data Agent's outbound requests to data sources outside the workspace.
+Outbound access protection will not restrict access to any target within the same workspace, because all Data Agent calls remain within the boundary of the workspace.
 
 ## Configuration
 
