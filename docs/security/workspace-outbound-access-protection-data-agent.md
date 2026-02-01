@@ -16,7 +16,7 @@ When outbound access protection is enabled, all outbound connections from the wo
 
 To learn more about managing outbound access protection, see [Workspace outbound access protection](https://learn.microsoft.com/en-us/fabric/security/workspace-outbound-access-protection-overview).
 
-## Outbound access for Data Agent
+## Understanding outbound access protection with Data Agent
 
 Data Agent makes an outbound request when adding or querying any data source outside it's own workspace. Outbound access protection protects data by limiting Data Agent's outbound requests to data sources outside the workspace.
 Outbound access protection will not restrict access to any target within the same workspace, because all Data Agent calls remain within the boundary of the workspace.
@@ -28,7 +28,6 @@ After enabling outbound access protection, you can [create a data connection rul
 
 
 ## Considerations and Limitations
-- All Other Connector will be blocked
-- External integrations
--   
+- "All Other Connections" will be blocked
+- External integrations 
 - For other limitations, refer to [Workspace outbound access protection overview - Microsoft Fabric](/fabric/security/workspace-outbound-access-protection-overview#considerations-and-limitations).
